@@ -1,17 +1,31 @@
-/* Layout Template Rules */
-.layouttemplate {
-  width: 800px;
-  margin-bottom: 20px;
-  height: 800px;
-  background-color: grey;
-}
-
 /* Styles For Layout One */
-
+.layouttemplate1 {
+  width: 600px;
+  margin-bottom: 20px;
+  height: 600px;
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+}
 
 
 /* Styles For Layout Two */
-
+.layouttemplate2 {
+  width: 600px;
+  margin-bottom: 20px;
+  height: 600px;
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+}
 
 
 /* Styles For Layout Three */
+.layouttemplate3 {
+  width: 600px;
+  margin-bottom: 20px;
+  height: 600px;
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+}
