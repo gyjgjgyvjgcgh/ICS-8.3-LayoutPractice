@@ -1,4 +1,7 @@
-/* Styles For Layout One */
+/************************** 
+Styles For Layout One EXAMPLE 
+**************************/
+
 .layouttemplate1 {
   width: 600px;
   margin-bottom: 20px;
@@ -8,8 +11,33 @@
   flex-direction: row;
 }
 
+#left-1 {
+  flex: 1;
+  background-color: lightblue;
+}
 
-/* Styles For Layout Two */
+#right-1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgreen;
+}
+
+#right-top-1 {
+  flex: 1;
+  background-color: lightcoral;
+}
+
+#right-bottom-1 {
+  flex: 1;
+  background-color: lightyellow;
+}
+
+
+/************************** 
+Styles For Layout Two 
+**************************/
+
 .layouttemplate2 {
   width: 600px;
   margin-bottom: 20px;
@@ -20,8 +48,24 @@
 }
 
 
-/* Styles For Layout Three */
+/************************** 
+Styles For Layout Three 
+**************************/
+
 .layouttemplate3 {
+  width: 600px;
+  margin-bottom: 20px;
+  height: 600px;
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+}
+
+/************************** 
+Styles For Layout Four 
+**************************/
+
+.layouttemplate4 {
   width: 600px;
   margin-bottom: 20px;
   height: 600px;
